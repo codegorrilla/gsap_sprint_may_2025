@@ -1,0 +1,110 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body,
+html {
+	width: 100vw;
+	height: 100vh;
+	background-color: fuchsia;
+	overflow-x: hidden;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: normal;
+	font-size: 62.5%;
+	text-align: left;
+	line-height: normal;
+	color: #000;
+}
+
+section {
+	width: 100vw;
+	height: 100vh;
+	padding: 2rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-items: center;
+	align-items: center;
+	gap: 2rem;
+
+	p {
+		padding: 8rem;
+		font-size: 3rem;
+		text-align: center;
+	}
+
+	&.purple {
+		background-color: purple;
+	}
+
+	&.aqua {
+		background-color: aqua;
+	}
+
+	&.pink {
+		background-color: pink;
+		padding: 5rem;
+	}
+
+	&.yellow {
+		background-color: yellowgreen;
+		padding: 3rem;
+	}
+
+	&.black {
+		background-color: #000;
+	}
+}
+
+.circle {
+	width: 200px;
+	height: 200px;
+	background-color: salmon;
+	display: block;
+	border-radius: 50%;
+}
+
+.box {
+	width: 200px;
+	height: 200px;
+	background-color: salmon;
+
+	&.black {
+		background-color: #000;
+	}
+
+	&.green {
+		background-color: green;
+	}
+
+	&.sm {
+		width: 100px;
+		height: 100px;
+	}
+}
+
+.boxy {
+	width: 100px;
+	height: 100px;
+	background-color: #000;
+	border-radius: 6px;
+	display: block;
+
+	&.gradient-green {
+		background: linear-gradient(to right, #00ff00, #0000ff);
+	}
+
+	&.gradient-blue {
+		background: linear-gradient(to right, #0000ff, #00ff00);
+	}
+
+	&.gradient-red {
+		background: linear-gradient(to right, #ff0000, #00ff00);
+	}
+
+	&.overlap {
+		outline: 4px dashed #fff;
+	}
+}

@@ -1,0 +1,73 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-kerning: none;
+	text-rendering: optimizeSpeed;
+}
+
+body,
+section {
+	width: 100vw;
+	height: 100vh;
+}
+
+.white,
+.red,
+.purple,
+.salmon {
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	gap: 2rem;
+	position: relative;
+
+	h1,
+	h2 {
+		width: 50vw;
+		line-height: 2rem;
+		text-align: center;
+	}
+}
+
+.red {
+	background-color: red;
+}
+
+.purple {
+	background-color: purple;
+}
+
+.salmon {
+	background-color: salmon;
+}
+
+.white {
+	background-color: white;
+}
+
+.box {
+	width: 200px;
+	height: 200px;
+	background-color: white;
+	border-radius: 6px;
+	display: block;
+	opacity: 0.7;
+	align-self: flex-start;
+}
+
+.about {
+	font-size: 3rem;
+	color: white;
+
+	.word {
+		line-height: 3rem;
+	}
+
+	.word4,
+	.word8 {
+		color: salmon;
+	}
+}
