@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Page Reveal Animation</title>
+	</head>
+	<body>
+		<nav>
+			<img
+				src="./assets/barrel.svg"
+				alt="logo château"
+				class="logo barrel" />
+			<div class="container-nav">
+				<a href="#">HOME</a>
+				<a href="#">WINES</a>
+				<a href="#">CONTACT</a>
+			</div>
+			<img
+				src="./assets/leaf.svg"
+				alt="logo feuille" />
+		</nav>
+
+		<div class="home">
+			<div class="overlay"></div>
+			<video
+				autoplay
+				muted
+				loop>
+				<source
+					src="./assets/grappe-video.mp4"
+					type="video/mp4" />
+			</video>
+			<div class="home-content">
+				<h1>Exceptional vineyards.</h1>
+				<div class="middle-line"></div>
+				<img
+					src="./assets/grape.svg"
+					alt="" />
+				<button>DISCOVER</button>
+			</div>
+		</div>
+
+		<script
+			src="./js/app.js"
+			type="module"></script>
+	</body>
+</html>
