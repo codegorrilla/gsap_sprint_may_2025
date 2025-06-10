@@ -1,0 +1,107 @@
+.dark-grey-button {
+	background: #414141;
+	background-image: -webkit-linear-gradient(top, #575757, #414141);
+	background-image: -moz-linear-gradient(top, #575757, #414141);
+	background-image: -ms-linear-gradient(top, #575757, #414141);
+	background-image: -o-linear-gradient(top, #575757, #414141);
+	background-image: linear-gradient(to bottom, #575757, #414141);
+	text-shadow: 0px 1px 0px #414141;
+	-webkit-box-shadow: 0px 1px 0px 414141;
+	-moz-box-shadow: 0px 1px 0px 414141;
+	box-shadow: 0px 1px 0px 414141;
+	color: #ffffff;
+	text-decoration: none;
+	margin: 0 auto;
+	-webkit-border-radius: 4;
+	-moz-border-radius: 4;
+	border-radius: 4px;
+	padding: 12px 25px;
+	font-family: 'Signika Negative', sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+	display: table;
+	cursor: pointer;
+	font-size: 13px;
+	line-height: 18px;
+}
+
+.dark-grey-button:hover {
+	background: #57a818;
+	background-image: -webkit-linear-gradient(top, #57a818, #4d9916);
+	background-image: -moz-linear-gradient(top, #57a818, #4d9916);
+	background-image: -ms-linear-gradient(top, #57a818, #4d9916);
+	background-image: -o-linear-gradient(top, #57a818, #4d9916);
+	background-image: linear-gradient(to bottom, #57a818, #4d9916);
+	text-shadow: 0px 1px 0px #32610e;
+	-webkit-box-shadow: 0px 1px 0px fefefe;
+	-moz-box-shadow: 0px 1px 0px fefefe;
+	box-shadow: 0px 1px 0px fefefe;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.club-demo-button {
+	outline: none;
+	border: none;
+	display: inline-block;
+	padding: 8px 14px;
+}
+
+body {
+	background: #010101;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	flex-wrap: wrap;
+}
+
+#template,
+#path {
+	fill: none;
+}
+#template {
+	stroke-width: 5px;
+	stroke: #444;
+}
+#path {
+	stroke: #0ae448;
+	stroke-width: 20px;
+	visibility: hidden;
+}
+#code,
+#value {
+	font-size: 2rem;
+	font-family: monospace;
+}
+#code {
+	color: #777;
+	margin: 20px;
+	position: relative;
+	visibility: hidden;
+}
+#current {
+	display: inline-block;
+	color: white;
+}
+#description {
+	max-width: 530px;
+	color: #777;
+	font-family: Arial, sans-serif;
+	font-size: 1.5rem;
+	display: inline-block;
+	text-align: left;
+}
+
+.yourPath {
+	visibility: hidden;
+	stroke-width: 10px;
+	stroke: red;
+	fill: transparent;
+}
+
+section {
+	width: 100vw;
+	margin-top: 1rem;
+	padding: 3rem;
+}
